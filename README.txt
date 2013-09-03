@@ -18,6 +18,10 @@ You can simply set a video in place of featured image in the product detail page
 
 Full documentation is available [here](http://yithemes.com/docs-plugins/yith_woocommerce_featured_video/).
 
+Working demo are available:
+
+**[LIVE DEMO 1](http://demo.yithemes.com/sistina/all-products/sport-chronograph/)** - **[LIVE DEMO 2](http://plugins.yithemes.com/yith-woocommerce-featured-video/)**
+
 
 = Installation =
 

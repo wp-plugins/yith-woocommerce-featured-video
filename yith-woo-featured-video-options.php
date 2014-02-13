@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Woocommerce Compare
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 if ( !defined( 'YITH_WOO_FEATURED_VIDEO' ) ) { exit; } // Exit if accessed directly

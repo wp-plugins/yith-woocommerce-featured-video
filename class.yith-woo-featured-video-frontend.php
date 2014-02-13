@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Woocommerce Featured Video
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 if ( !defined( 'YITH_WOO_FEATURED_VIDEO' ) ) { exit; } // Exit if accessed directly
@@ -78,7 +78,11 @@ if( !class_exists( 'YITH_Woo_Featured_Video_Frontend' ) ) {
             if ( ! $this->video_url ) return $html;
 
             // size
-            $size	= $woocommerce->get_image_size( apply_filters( 'single_product_large_thumbnail_size', 'shop_single' ) );
+            if ( function_exists( 'wc_get_image_size' ) ) {
+                $size	= wc_get_image_size( apply_filters( 'single_product_large_thumbnail_size', 'shop_single' ) );
+            } else {
+                $size	= $woocommerce->get_image_size( apply_filters( 'single_product_large_thumbnail_size', 'shop_single' ) );
+            }
             $width  = $size['width'];
             $height = $size['height'];
 

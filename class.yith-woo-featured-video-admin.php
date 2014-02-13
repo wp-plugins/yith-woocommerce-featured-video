@@ -4,7 +4,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH WooCommerce Magnifier
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 if ( !defined( 'YITH_WOO_FEATURED_VIDEO' ) ) { exit; } // Exit if accessed directly
@@ -89,7 +89,7 @@ class YITH_Woo_Featured_Video_Admin {
     }
 
     public function save_video_url( $post_id, $post ) {
-        if ( isset( $_POST['_video_url'] ) && $_POST['_video_url'] )
+        if ( isset( $_POST['_video_url'] ) )
             update_post_meta( $post_id, '_video_url', esc_url( $_POST['_video_url'] ) );
     }
 

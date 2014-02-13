@@ -3,12 +3,13 @@
 Contributors: yithemes
 Tags: woocommerce, featured video, featured image, featured, product, yit, e-commerce, shop
 Requires at least: 3.5.1
-Tested up to: 3.5.2
-Stable tag: 1.0.0
+Tested up to: 3.8.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 YITH WooCommerce Featured Video allows you to set a video in place of the featured image in the product detail page.
+**WooCommerce Compatible up to 2.1.x**
 
 
 == Description ==
@@ -60,6 +61,11 @@ You have to simply set the URL of the video, for example "http://vimeo.com/67175
 2. The admin field in product configuration.
 
 == Changelog ==
+
+= 1.1.0 =
+
+* Added: Support to WooCommerce 2.1.x
+* Fixed: error when tring to remove the video URL from the admin fields
 
 = 1.0.0 =
 

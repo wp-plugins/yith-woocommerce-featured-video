@@ -3,7 +3,7 @@
  * Plugin Name: YITH Woocommerce Featured Video
  * Plugin URI: http://yithemes.com/
  * Description: YITH Woocommerce Featured video allows you to set a video instead of featured image on the single product page.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Your Inspiration Themes
  * Author URI: http://yithemes.com/
  * Text Domain: yit
@@ -11,7 +11,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH Woocommerce Featured Video
- * @version 1.0.0
+ * @version 1.1.0
  */
 /*  Copyright 2013  Your Inspiration Themes  (email : plugins@yithemes.com)
 
@@ -44,7 +44,7 @@ function yith_woo_featured_video_constructor() {
     load_plugin_textdomain( 'yit', false, dirname( plugin_basename( __FILE__ ) ). '/languages/' );
 
     define( 'YITH_WOO_FEATURED_VIDEO', true );
-    define( 'YITH_WOO_FEATURED_VIDEO_VERSION', '1.0.0' );
+    define( 'YITH_WOO_FEATURED_VIDEO_VERSION', '1.1.0' );
     define( 'YITH_WOO_FEATURED_VIDEO_URL', plugin_dir_url( __FILE__ ) );
     define( 'YITH_WOO_FEATURED_VIDEO_DIR', plugin_dir_path( __FILE__ ) );
 

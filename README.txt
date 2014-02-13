@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 YITH WooCommerce Featured Video allows you to set a video in place of the featured image in the product detail page.
-**WooCommerce Compatible up to 2.1.x**
+WooCommerce Compatible up to 2.1.x
 
 
 == Description ==

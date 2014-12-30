@@ -21,7 +21,7 @@ Full documentation is available [here](http://yithemes.com/docs-plugins/yith_woo
 
 Working demo are available:
 
-**[LIVE DEMO 1](http://demo.yithemes.com/sistina/all-products/sport-chronograph/)** - **[LIVE DEMO 2](http://plugins.yithemes.com/yith-woocommerce-featured-video/)**
+**[LIVE DEMO 1](http://preview.yithemes.com/sistina/all-products/sport-chronograph/)** - **[LIVE DEMO 2](http://plugins.yithemes.com/yith-woocommerce-featured-video/)**
 
 
 = Installation =
